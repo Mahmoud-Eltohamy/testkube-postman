@@ -16,8 +16,6 @@ https://testkube.dev-19.finxact.io/tests
 
 - deploy testkube open-source, standalone agent
     - `testkube init`
-- register and deploy testkube executor in your cluster.
-    - `kubectl apply -f postman-executor.yaml`
 
 ### clean up tasks after testing
 - Uninstall Testkube CLI
