@@ -2,6 +2,7 @@
 - kubectl cluster-info
 - kubectl get nodes
 - docker image build -t app:v1 .
+- docker tag app:v1 localhost:5000/app:v1
 - docker image push localhost:5000/app:v1
 - kubectl create -f app-pod.yml
 - kubectl get pods
